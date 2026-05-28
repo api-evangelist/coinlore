@@ -1,0 +1,32 @@
+aid: coinlore
+name: Coinlore
+description: "Cryptocurrencies prices, volume and more"
+url: https://www.coinlore.com/cryptocurrency-data-api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Cryptocurrency"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Cryptocurrency
+  - Public APIs
+apis:
+  - name: Coinlore
+    description: "Cryptocurrencies prices, volume and more"
+    humanURL: https://www.coinlore.com/cryptocurrency-data-api
+    baseURL: https://www.coinlore.com/cryptocurrency-data-api
+    tags:
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.coinlore.com/cryptocurrency-data-api
+common:
+  - type: Website
+    url: https://www.coinlore.com/cryptocurrency-data-api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
